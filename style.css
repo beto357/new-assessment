@@ -1,5 +1,18 @@
-/* add code here to make your image 300px square */
+img {
+    width: 100px;
+    height: 100px;
+    transition: width 0.5s, height 0.5s, transform 0.5s;
+    margin-left: 0px;
+}
+img:hover {
+    width: 300px;
+    height: 300px;
+}
 
-/* add code here to change the color and font family of your name/title */
+h1 {
+    font-family:cursive; color: red;
+}
+ol {
+    color:royalblue
+} 
 
-/* Bonus: change the color of your list elements */
