@@ -1,12 +1,8 @@
+
 img {
-    width: 100px;
-    height: 100px;
-    transition: width 0.5s, height 0.5s, transform 0.5s;
-    margin-left: 0px;
-}
-img:hover {
-    width: 300px;
-    height: 300px;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
 }
 
 h1 {
@@ -15,4 +11,4 @@ h1 {
 ol {
     color:royalblue
 } 
-
+button { background-color: yellow; color: red;

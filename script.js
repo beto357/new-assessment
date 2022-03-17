@@ -1,31 +1,24 @@
 // Obtain the img element, and assign it to the image variable
-let img = "dog"
+let image =
+document.getElementById("dog");
 
 // Obtain the 'shrink-grow' button, and assign it to the changeSize variable 
 
-"shrink/grow" changeSize."dog"("click", function() 
-{
-   if (image.style.height == "300px") {
-    image.style.height = "150px"
-    image.style.width = "150px"
-  }
-  else {
-    image.style.height = "300px"
-    image.style.width = "300px"
-  }
-})
+let changeSize = 
+document.getElementById("Shrink/Grow");
 
 
 
 
-//DO NOT CHANGE THE FOLLOWING CODE
-changeSize.addEventListener("click", function() {
+changeSize.addEventListener("click",function() {
   if (image.style.height == "300px") {
-    image.style.height = "150px"
-    image.style.width = "150px"
+    image.style.height = "150px";
+    image.style.width = '150px'
   }
   else {
     image.style.height = "300px"
-    image.style.width = "300px"
+    image.style.width = '300px'
   }
 })
+
+
